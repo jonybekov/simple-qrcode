@@ -13,7 +13,7 @@ export default function App() {
     <div className="App">
       <QRCodeGenerator
         options={{
-          width
+          width: Number(width)
         }}
         data={
           trackingId
